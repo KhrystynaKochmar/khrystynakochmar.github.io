@@ -1,0 +1,302 @@
+/* CSS Document */
+*{
+	margin:0;
+	font-family:"Forte", SansSerif;
+}
+
+body{
+	background:url("../imagens/fundo.png");
+}
+
+p{
+	font-family:"Candara",SansSerif ;
+}
+
+h1{
+	color:#0033a0;
+}
+
+#Principal{
+	width:90%;
+	margin:auto;
+}
+/*HEADER--------------------------------------------------------------------------------*/
+header{	
+	width:90%;	
+	padding:1%;	
+	height:19%;
+	margin:auto;
+	background:#FFFFFF;
+	box-shadow: 0px 3px 10px #000000;
+	position:fixed;
+	z-index: 3;
+}
+
+#orca{
+	position:relative;
+	top:8%;
+	display:inline-block;
+	width:9.9%;
+	text-align:center;
+	color:black;
+}
+
+#Baleia {
+	width:30%;
+	position:absolute;
+	right:1%;
+	top:-10%;		
+}
+
+#logo{
+	position:absolute;
+	padding:1%;
+}
+	
+/*NAV------------------------------------------------------------------------------*/
+nav{		
+	display:inline-block;
+	width:60%;
+	text-align:center;
+	/*border: 1px #4B4B4B solid;*/
+	margin-top:7%;
+	margin-left:6%;
+}
+
+nav ul{
+	list-style-type: none;
+}
+	
+nav li{
+	display:inline-block;
+	margin-right:4%;
+}
+		
+nav a{
+	font-size:1.3em;
+	color:#0033a0;
+	padding-bottom:3px;
+	text-decoration: none;
+	padding:15px;
+	border-radius:100%;
+	background: transparent;
+	transition: background 1s;
+}
+
+#bt{
+	background:#0033a0;
+	color:white;
+}
+	
+nav a:hover {
+	color: white;
+	background: #0033a0;
+	transition: background 1s;
+}
+/*SECTION------------------------------------------------------------------*/
+section{	
+	position:relative;
+	width:100%;
+	height:auto;
+	padding:16px;
+	padding-bottom: 40px;
+	background:white;
+	position: relative;	
+	top: 199px;	
+	z-index: 2;
+}
+
+#introdução{
+	display:inline-block;
+	width:70%;
+	text-align:justify;
+}
+	
+#icons{
+	z-index: 1;
+	padding:10px;
+	position:relative;
+	display:inline-block;
+	width:26%;
+	left:2%;
+}
+
+#icons img{
+	margin-right:3%;
+}
+
+#um, #dois, #tres{
+	background:black;
+	border-radius:100%;
+	transition: background 1s;
+}
+	
+#um:hover{
+	background:#3b5998;
+
+}
+	
+#dois:hover{
+	background:#1dcaff;
+}
+
+#tres:hover{
+	background:#bb0000;
+	}	
+
+#icons p{
+	text-align:center;
+}
+
+#banner img{
+	position:relative;
+	margin-top:1%;
+	left:-1.5%;
+	width:103%;
+}
+
+#banner_descricao{	
+	color:white;
+	background: rgba(0,0,0,0.7);
+	padding:1.34%;
+	position:relative;
+	top:-64px;
+	left:-17px;
+	width:100%;
+}
+
+#banner_conteudo{
+	font-family:"Candara",SansSerif;
+	width:30%;
+	display:inline-block;
+}
+	
+#link{
+	position:relative;
+	display:inline-block;
+	width:20%;
+	text-align:right;
+	float:right;
+	top:-20px;
+}
+
+#link a{
+	font-weight: bold;
+	font-family:"Candara",SansSerif;
+	color:white;
+}
+
+img.mTarget:hover + .mDescr {
+    background:rgba(0,0,0,0.5) !important;
+    opacity: 1 !important;
+	transition-property:opacity;
+	transition-duration: 0.2s;
+	transition-delay: 0s !important;/*Atraza a transição*/
+}
+
+#outros{
+	position: relative;
+	width:100%;
+	/*background: green;*/
+	top:-20px;;
+}
+
+#SobreNos{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	width:25%;
+	/*background:#F9FF9E;*/
+	text-align:justify;
+	font-size: 0.9em;
+}
+
+#Eventos{
+	position:relative;
+	vertical-align:top;
+	display:inline-block;
+	width:38%;
+	/*background:#8AE3FF;*/
+	text-align:justify;
+	font-size: 0.9em;
+	margin-left: 2.2%;
+	
+}
+
+#Eventos img:hover{	
+	opacity:0.7;
+	transition: opacity 1s;
+}
+
+#Eventos img{
+	width: 100%;
+}
+
+#coluna1{
+	display:inline-block;
+	position:relative;
+	width:45%;
+	vertical-align: top;
+	/*background: pink;*/
+	margin-right:2%;
+	
+}
+	
+#coluna2{
+	display:inline-block;
+	position:relative;
+	width:45%;
+	vertical-align: top;
+	/*background:pink;*/
+}
+
+/*ASIDE---------------------------------------------------------------------*/
+
+aside{
+	position:relative;
+	float: right;
+	top:-368px;
+	display:inline-block;
+	width: 36%;
+	height:428px;
+	background:#c1c1c1;
+	font-size: 0.9em;
+	text-align:justify;
+	left:16px;
+}
+
+
+#coluna-01{
+	width:25%;
+	display:inline-block;
+	position:relative;
+	vertical-align: top;
+	margin-top:18%;
+	margin-left:7%;
+}
+#coluna-02{
+	width:60%;
+	display:inline-block;
+	position:relative;
+	vertical-align: top;
+	margin-top:18%;
+}
+
+aside img:hover{
+	opacity:0.5;
+	transition: opacity 1s;	
+}
+/*FOOTER---------------------------------------------------------------------*/	
+footer{
+	position:fixed;
+	background:white;
+	font-weight: bold;
+	font-size:0.8em;
+	bottom:0;
+	width:91.4%;
+	color:black;
+	padding:0.3%;
+	z-index:3;
+	text-align:right;
+	box-shadow: 0px 0px 5px 1px #000000;	
+}

@@ -1,0 +1,152 @@
+/* CSS Document */
+*{
+	margin:0;
+	font-family:"Forte", SansSerif;
+}
+
+body{
+	background:url("../imagens/fundo.png");
+}
+
+p{
+	font-family:"Candara",SansSerif ;
+}
+
+h1{
+	color:#0033a0;
+}
+
+#Principal{
+	width:90%;
+	margin:auto;
+}
+/*HEADER--------------------------------------------------------------------------------*/
+header{	
+	width:90%;	
+	padding:1%;	
+	height:19%;
+	margin:auto;
+	background:#FFFFFF;
+	box-shadow: 0px 3px 10px #000000;
+	position:fixed;
+	z-index: 3;
+}
+
+#orca{
+	position:relative;
+	top:8%;
+	display:inline-block;
+	width:9.9%;
+	text-align:center;
+	color:black;
+}
+
+#Baleia {
+	width:30%;
+	position:absolute;
+	right:1%;
+	top:-10%;		
+}
+
+#logo{
+	position:absolute;
+	padding:1%;
+}
+	
+/*NAV------------------------------------------------------------------------------*/
+nav{		
+	display:inline-block;
+	width:60%;
+	text-align:center;
+	/*border: 1px #4B4B4B solid;*/
+	margin-top:7%;
+	margin-left:6%;
+}
+
+nav ul{
+	list-style-type: none;
+}
+	
+nav li{
+	display:inline-block;
+	margin-right:4%;
+}
+		
+nav a{
+	font-size:1.3em;
+	color:#0033a0;
+	padding-bottom:3px;
+	text-decoration: none;
+	padding:15px;
+	border-radius:100%;
+	background: transparent;
+	transition: background 1s;
+}
+
+#bt{
+	background:#0033a0;
+	color:white;
+}
+	
+nav a:hover {
+	color: white;
+	background: #0033a0;
+	transition: background 1s;
+}
+/*SECTION------------------------------------------------------------------*/
+section{	
+	position:relative;
+	width:100%;
+	padding:16px;
+	padding-bottom: 40px;
+	background:white;
+	position: relative;	
+	top: 199px;	
+	z-index: 2;
+	margin-bottom:3.5%;
+}
+
+#coluna1, #coluna2{
+	position:relative;
+	width:47%;
+	/*background: pink;*/
+	vertical-align:top;
+	display:inline-block;
+	left:0.7%;
+	top:13px;
+	font-size:0.9em;
+	padding:1%;
+	text-align:justify;
+}
+
+#coluna1 img, #coluna2 img{
+	width:100%;
+}
+
+/*FOOTER---------------------------------------------------------------------*/	
+footer{
+	position:fixed;
+	background:white;
+	font-weight: bold;
+	font-size:0.8em;
+	bottom:0;
+	width:91.4%;
+	color:black;
+	padding:0.3%;
+	z-index:3;
+	text-align:right;
+	box-shadow: 0px 0px 5px 1px #000000;	
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

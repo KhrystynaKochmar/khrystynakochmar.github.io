@@ -1,0 +1,203 @@
+@charset "utf-8";
+*{	margin:0px;
+	padding:0px;
+	font-family:"Century Gothic", sans-serif;
+}
+
+body{
+	background: url(../img/fundo.png);
+	padding:0px;
+	margin:auto;
+	
+}
+
+p, h3{
+	color:#ffafbb;
+}
+	
+#principal{
+	position:relative;
+	width:100%;
+}
+
+
+/*--  HEADER  ------------------------------------------------------------------------------*/
+header{
+	position:fixed;
+	background:#111820;
+	height:40%px;
+	width:100%;
+	z-index: 2;
+	/*border:#ffafbb 1px solid;*/
+
+		
+	}
+	
+#avatar{
+	position:relative;
+	bottom:-9px;
+	display:inline-block;
+	left:6.5%;
+	/*border:#ffafbb 1px solid;*/
+}	
+	
+#nome{
+	position:relative;
+	display:inline-block;
+	color:#ffafbb;
+	font-size:1.9em;
+	top:-10%;
+	left:7%;
+	/*border:#ffafbb 1px solid;*/
+}	
+
+nav{
+	position:relative;
+	display:inline-block;
+	width:45%;
+	/*border:#ffafbb 1px solid;*/
+	left:20%;	
+	font-size:0.7em;
+	text-align:right;
+	top:-20px;	
+}
+
+nav img{
+	margin-right: 10px;}
+	
+	
+	
+nav li{
+	display:inline-block;
+	margin-right:2%;
+}
+		
+nav a{	
+	font-size:1.3em;
+	color:#ffafbb;
+	padding-bottom:3px;
+	text-decoration:none;
+}
+
+#bt{
+	border-bottom:3px solid #ffafbb;
+	}
+
+nav a:hover{
+
+	border-bottom:3px solid #ffafbb;
+	transition: border-bottom 0.2s;
+	
+}
+
+/*--  BODY  ------------------------------------------------------------------------------*/
+
+
+section{
+	margin:auto;
+	position:relative;
+	width:88%;	
+	background-color:rgba(17,24,32,0.97);
+	/*border:#ffafbb 1px solid;*/
+	left:10px;
+	padding:30px;
+	top:110px;
+	z-index: 1;
+	
+	}
+	
+	
+section img{
+	display: block;
+    height:200%;
+    width: auto;
+    margin: auto;
+	transition: opacity 0.5s;
+}
+
+section img:hover{
+	opacity:0.5;
+	transition: opacity 0.5s;
+	}
+
+
+.imagemGaleria{
+	
+	box-sizing:border-box;
+	padding:15px;	
+	display:inline-block;
+	vertical-align:top;
+	width:340px;
+	height:290px;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+
+.js-image{
+	
+cursor:pointer;
+opacity: 0.4;
+transition:opacity 0.5s;
+}
+
+
+.js-image:hover{
+	
+opacity: 1;
+transition:opacity 0.5s;
+}
+
+/*--  FOOTER ------------------------------------------------------------------------------*/
+
+footer{
+	margin-top:20%;
+	margin:auto;
+	position:relative;
+	width:88%;
+	background-color:rgb(17,24,32);
+	padding:30px;
+	top:110px;
+}
+
+
+footer p{
+	position:relative;
+	left:30px;
+}
+
+
+#footer{
+	
+	display:inline-block;
+	width:30%;
+
+}
+
+#cv{
+	padding-right:30px;
+	position:relative;
+	float:right;
+	margin-top:auto;
+	display:inline-block;
+	width:20%;
+	}
+
+#cv img{
+	margin-top:8px;
+	padding:2px;
+	position:relative;
+	left:-60px;
+	border-radius:100%;
+	background:#ffafbb;
+	transition: 1s;
+}
+
+#cv img:hover{
+	opacity:0.4;
+	transition: 1s;
+	}
+
+#cv p{
+	text-align:right
+}
